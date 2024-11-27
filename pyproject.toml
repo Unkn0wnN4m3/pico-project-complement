@@ -1,0 +1,20 @@
+[project]
+name = "pico-project-complement"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Unkn0wnN4m3", email = "87839850+Unkn0wnN4m3@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+]
+
+[project.scripts]
+pico-project-complement = "pico_project_complement:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
